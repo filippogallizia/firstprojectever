@@ -5,7 +5,7 @@
 // concepts:
 //  - variables, constants, conditional logic, logging, functions, arrays, number arithmetic, % operator
 // task:
-//  to print each item in an array line by line and state whether it is even or odd
+//  to print each item in an array line by line and state whether it is even or odd number
 
 const numbersToCheck = [0, -1, 13, 35234, 34541312, 26765, 45344, 2, 544, 323, 634, 43435, 34534];
 
