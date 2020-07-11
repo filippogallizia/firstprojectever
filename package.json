@@ -1,0 +1,22 @@
+{
+  "name": "primo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "primoprogetto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filippogallizia/firstprojectever.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filippogallizia/firstprojectever/issues"
+  },
+  "homepage": "https://github.com/filippogallizia/firstprojectever#readme",
+  "devDependencies": {
+    "eslint": "^7.3.1"
+  }
+}
