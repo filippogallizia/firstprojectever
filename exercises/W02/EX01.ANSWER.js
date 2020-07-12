@@ -1,6 +1,4 @@
-
 const numbersToCheck = [0, -1, 13, 35234, 34541312, 26765, 45344, 2, 544, 323, 634, 43435, 34534];
-
 
 // long and proper implementation
 for (let k = 0 ; k < numbersToCheck.length ; k++) {

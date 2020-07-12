@@ -7,8 +7,6 @@ val = numbersToSort.sort(function (x,y){
 
 console.log (val);
 
-
-
 const person = {
 	firstName: 'Steve',
 	lastNam: 'Smith',
@@ -17,5 +15,4 @@ const person = {
 	getbBirthYear: function(){
 		return 1989;
 	}
-
 }
