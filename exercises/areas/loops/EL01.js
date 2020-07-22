@@ -1,6 +1,6 @@
-/////////////////
-// EXERCISE 04 //
-/////////////////
+///////////////////
+// EXERCISE EL01 //
+///////////////////
 
 // concepts:
 //  - regex, Object.keys, Array.indexOf, for loop
