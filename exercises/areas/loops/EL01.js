@@ -6,8 +6,8 @@
 //  - regex, Object.keys, Array.indexOf, for loop
 // task:
 //  - The task is to count the cleaned words (alphanumeric only) unordered and output an object with words and their respective counts
-// hint:
-//  - The hints are in the concepts to be covered.
+
+
 
 console.clear();
 console.log(__filename.split('/').slice(-1)[0])
@@ -16,11 +16,25 @@ const caparezza = ['sono', 'fuori', 'dal', 'tunnel,', 'del', 'divertimento,', 's
 
 const cleanWord = (word) => word.replace(/[^a-z0-9]/gi, '');
 
+
+
 function countWords(arr) {
-  /* IMPLEMENT */
+  newObj = {};
+  for (let n = 0; n < arr.length; n++) {
+    if (Object.keys(newObj).indexOf(cleanWord(arr[n])) > -1) {
+      newObj[cleanWord(arr[n])]++
+    } else {
+      newObj[cleanWord(arr[n])] = 1;
+    }
+  } 
+  return newObj;
 }
+ 
 
 console.log(countWords(caparezza));
+// hint:
+//  - The hints are in the concepts to be covered.
+
 
 // desired output:
 /*
