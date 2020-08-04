@@ -9,10 +9,22 @@
 
 function cleanObjects(objs, type) {
   // change code below this line
-
-
-  // change code above this line
+  let newArray = objs.map(function(e) {
+    let newObj = {};
+    let objKey = Object.keys(e);
+    for(let x of objKey){
+      if(typeof(e[x]) === 'number' && type === 'number'){
+        newObj[x] = e[x]
+      } 
+      else if(typeof(e[x]) === 'string' && type === 'string' ){
+      newObj[x] = e[x]
+      }
+    }  
+      return newObj
+  })
+  return newArray
 }
+
 
 const testObjs = [
   {
@@ -33,7 +45,7 @@ const testObjs = [
 console.log(cleanObjects(testObjs, 'number'));
 // output: [ { numberOne: 1, numberTwo: 2 }, { numberThree: 2, numberFour: 3 } ]
 
-console.log(cleanObjects(testObjs, 'string'));
+//console.log(cleanObjects(testObjs, 'string'));
 // output: [ { stringOne: 'String One' }, { stringTwo: 'String Two' } ]
 
 
